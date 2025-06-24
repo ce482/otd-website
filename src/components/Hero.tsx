@@ -30,9 +30,17 @@ const Hero = () => {
           </span>
         </p>
         
-        <div className="flex justify-center items-center mb-12">
+        <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mb-12">
           <Button size="lg" className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white px-8 py-3 text-lg">
             App Coming Soon
+          </Button>
+          <Button 
+            size="lg" 
+            variant="outline"
+            className="border-2 border-purple-600 text-purple-600 hover:bg-purple-600 hover:text-white px-8 py-3 text-lg transition-all duration-200"
+            onClick={() => window.open('https://off-the-dome.vercel.app/explore', '_blank')}
+          >
+            Preview App
           </Button>
         </div>
 
