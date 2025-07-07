@@ -1,4 +1,3 @@
-
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -36,10 +35,10 @@ const Support = () => {
                   <div>
                     <p className="font-semibold text-gray-800">Email Support</p>
                     <a 
-                      href="mailto:hudsonch3.14@gmail.com" 
+                      href="mailto:offthedome.help@gmail.com" 
                       className="text-purple-600 hover:text-purple-700 transition-colors"
                     >
-                      hudsonch3.14@gmail.com
+                      offthedome.help@gmail.com
                     </a>
                   </div>
                 </div>
@@ -75,6 +74,41 @@ const Support = () => {
                 <div>
                   <h3 className="font-semibold text-gray-800 mb-2">Can I use this for interview prep?</h3>
                   <p className="text-gray-600 text-sm">Absolutely! Our Interview Mode includes career-specific questions for various industries and roles.</p>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+
+          {/* Social Media Section */}
+          <div className="mt-12">
+            <Card className="shadow-xl border-0">
+              <CardHeader className="text-center">
+                <CardTitle className="text-2xl font-bold text-gray-800">Follow Us</CardTitle>
+                <CardDescription>
+                  Stay connected with us on social media for tips, updates, and community highlights.
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <div className="flex justify-center space-x-8">
+                  <a 
+                    href="https://instagram.com/offthedome.app" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="flex items-center space-x-3 bg-gradient-to-r from-pink-500 to-purple-500 text-white px-6 py-3 rounded-lg hover:from-pink-600 hover:to-purple-600 transition-all duration-300 transform hover:scale-105"
+                  >
+                    <span className="text-xl">📷</span>
+                    <span className="font-semibold">@offthedome.app</span>
+                  </a>
+                  
+                  <a 
+                    href="https://tiktok.com/@offthedome.app" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="flex items-center space-x-3 bg-gradient-to-r from-gray-800 to-gray-900 text-white px-6 py-3 rounded-lg hover:from-gray-900 hover:to-black transition-all duration-300 transform hover:scale-105"
+                  >
+                    <span className="text-xl">🎵</span>
+                    <span className="font-semibold">@offthedome.app</span>
+                  </a>
                 </div>
               </CardContent>
             </Card>
